@@ -1,0 +1,26 @@
+{
+  "name": "BHASHI-MD V2",
+  "description": "Javascript WhatsApp bot made by Bhashi Team",
+  "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
+  "keywords": ["BHASHI-MD-V2"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+    "MONGODB": {
+      "description": "Put your mongodb uri here.",
+      "required": true
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
