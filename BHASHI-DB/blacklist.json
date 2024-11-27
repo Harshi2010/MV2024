@@ -1,0 +1,4 @@
+{
+  "BLACKLISTED_USERS": ["1234567890", "0987654321"],
+  "BLACKLISTED_GROUPS": ["groupid1", "groupid2"]
+}
